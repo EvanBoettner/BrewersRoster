@@ -1,0 +1,114 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.pageTitle {
+  display: block;
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 50%;
+  background-color: #12284b;
+  color: #ffc52f;
+}
+
+body {
+  background: rgb(255, 197, 47);
+  background: radial-gradient(
+    circle,
+    rgba(255, 197, 47, 1) 0%,
+    rgba(18, 40, 75, 1) 100%
+  );
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.container {
+  list-style: none;
+  font-weight: 500;
+  cursor: pointer;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+#leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-size: 40px;
+  visibility: hidden;
+  color: #12284b;
+}
+
+#rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  font-size: 40px;
+  visibility: hidden;
+  color: #12284b;
+}
+
+.player {
+    max-width: 265.55px;
+    min-width: 265.55px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #ffc52f;
+    color: #12284b;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.player h1 {
+    font-size: 24px;
+}
+
+.baseballImg {
+    border: 1px solid black;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    background-image: url('background.png');
+    background-size: cover;
+}
+
+#cardInfo {
+    border-top: 1px solid black;
+}
+
+#cardInfo h4 {
+  margin-bottom: 0;
+}
+
+#position {
+  border-top: none;
+  padding-top: 0;
+}
+#bat {
+  border-top: 1px solid black;
+  padding-top: 8%;
+}
+#throw {
+  border-top: 1px solid black;
+  padding-top: 8%;
+}
+#number {
+  border-top: 1px solid black;
+  padding-top: 8%;
+}
+#birth {
+  border-top: 1px solid black;
+  padding-top: 8%;
+}
+
